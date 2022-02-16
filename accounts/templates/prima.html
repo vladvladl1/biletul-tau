@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<head>
+    <script>
+function myFunction() {
+  location.replace('home')
+}
+function myFunction1() {
+  location.replace('adauga')
+}
+</script>
+<style>
+.btn {
+  border: 4px solid black;
+  background-color: white;
+  color: black;
+  padding: 291px 300px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.coustomer {
+ 
+  border-color: #2196F3;
+  color: dodgerblue;
+  border-radius: 8px;
+}
+
+.seller {
+ 
+  border-color: #2196F3;
+  color: dodgerblue;
+  border-radius: 8px;
+}
+
+
+.centerCoustomer {
+  margin: 0;
+  position:absolute;
+  top: 50%;
+  left: 25%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.centerSeller {
+  margin: 0;
+  position:absolute;
+  top: 50%;
+  left: 74.8%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.seller:hover {
+  background: #2196F3;
+  color: white;
+  
+}
+
+.coustomer:hover {
+  background: #2196F3;
+  color: white;
+}
+</style>
+</head>
+<body bgcolor="#33d6ff">
+<div class="centerCoustomer">
+<button class="btn coustomer" onclick="myFunction()">Buyer</button>
+</div>
+<div class="centerSeller">
+<button class="btn seller" onclick="myFunction1()">Seller</button>
+</div>
+
+</body>
+</html>

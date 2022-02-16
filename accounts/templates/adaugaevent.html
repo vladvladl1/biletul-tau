@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>adauga bilet</title>
+</head>
+
+<body>
+
+
+   <form method="POST">
+	   {% csrf_token %}
+			<table align="center">
+
+
+			   <tr>
+						<th width="300">
+						Adauga Eveniment
+						</th>
+
+				</tr>
+				<tr>
+						<th width="300">
+							<input type="number" placeholder="ID" name="ID">
+						</th>
+				<tr>
+                <tr>
+
+						<th width="300">
+							<input type="text" placeholder="nume eveniment" name="Nume">
+						</th>
+
+			    </tr>
+				<tr>
+
+						<th width="300" height="150">
+							<input type="text" placeholder="descriere" name="Descriere">
+						</th>
+				</tr>
+
+				<tr>
+
+
+						<th width="300">
+							<input type="text" placeholder="Artisti" name="Artisti">
+						</th>
+				</tr>
+
+
+				<tr>
+
+
+						<th width="300">
+							<input type="text" placeholder="Oras" name="Oras">
+						</th>
+				</tr>
+
+
+				<tr>
+
+
+						<th width="300">
+							<input type="number" placeholder="Pret" name="Pret">
+						</th>
+				</tr>
+
+
+				<tr>
+
+
+						<th width="300">
+							<input type="text" placeholder="Data" name="Data">
+						</th>
+				</tr>
+				<tr>
+
+
+						<th width="300">
+							<input type="text" placeholder="Categorie" name="Categorie">
+						</th>
+				</tr>
+
+                <tr>
+                      <th>
+						  <input type="submit" value="Adauga">
+					  </th>
+				</tr>
+			</table>
+</form>
+</body>
+</html>
